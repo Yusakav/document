@@ -7,9 +7,9 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 # -- 项目信息 --
-project = 'stm32_hal_docs'
-copyright = '2026, nyarukov'
-author = 'nyarukov'
+project = 'docs'
+copyright = '2026, Yusakav'
+author = 'Yusakav'
 release = '1.0.0'
 
 # -- General configuration ---------------------------------------------------
@@ -69,7 +69,7 @@ html_theme_options = {
     "show_prev_next": True,
 
     "logo": {
-        "text": "Nyarukov",
+        "text": "Yusakav",
         "image_light": "_static/logo.jpg",
         "image_dark": "_static/logo.jpg",
     },
@@ -77,19 +77,13 @@ html_theme_options = {
     "icon_links": [
         {
             "name": "GitHub",
-            "url": "https://github.com/nyarukov",
+            "url": "https://github.com/Yusakav",
             "icon": "fa-brands fa-github",
         },
-        {
-            "name": "STM32 Cube",
-            "url": "https://www.st.com",
-            "icon": "https://www.st.com/favicon.ico",
-            "type": "url",
-        },
     ],
-#    "announcement": "Here's a <a href='https://pydata.org'>PyData Announcement!</a>",
 }
 
+# 侧边栏配置
 html_sidebars = {
     "**": ["sidebar-nav-bs", "sidebar-ethical-ads"], # 默认所有页面显示导航
     "index": [], # 首页不显示左侧边栏，获得全屏效果

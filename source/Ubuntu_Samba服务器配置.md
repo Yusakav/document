@@ -135,5 +135,3 @@ sudo systemctl status smbd
 1. **编译**：在 Ubuntu 终端输入 `./build.sh`。
 2. **开发**：在 Windows 侧使用 VS Code 直接打开映射后的 `Z:` 盘目录进行代码编写。
 3. **部署**：编译出的镜像文件会直接出现在 Windows 侧，直接使用 Luckfox 烧录工具即可。
-
----
